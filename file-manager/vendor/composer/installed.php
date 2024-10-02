@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '6.5.7.x-dev',
-        'version' => '6.5.7.9999999-dev',
+        'pretty_version' => '6.5.8.x-dev',
+        'version' => '6.5.8.9999999-dev',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '1e829c315b50c1ba677a9512376c3c9fa98d9338',
+        'reference' => 'e7e8f294ebd6d40632478819e44b04f43629db65',
         'name' => 'bitapps/file-manager',
         'dev' => false,
     ),
@@ -20,12 +20,12 @@
             'dev_requirement' => false,
         ),
         'bitapps/file-manager' => array(
-            'pretty_version' => '6.5.7.x-dev',
-            'version' => '6.5.7.9999999-dev',
+            'pretty_version' => '6.5.8.x-dev',
+            'version' => '6.5.8.9999999-dev',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '1e829c315b50c1ba677a9512376c3c9fa98d9338',
+            'reference' => 'e7e8f294ebd6d40632478819e44b04f43629db65',
             'dev_requirement' => false,
         ),
         'bitapps/wp-database' => array(
