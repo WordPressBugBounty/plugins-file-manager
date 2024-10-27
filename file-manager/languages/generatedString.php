@@ -11,7 +11,19 @@ $i18n_strings = array(
 
     'Failed to update language' => __('Failed to update language', 'file-manager'),
 
+    'User permission deleted' => __('User permission deleted', 'file-manager'),
+
+    'Failed to save permission' => __('Failed to save permission', 'file-manager'),
+
+    'Path' => __('Path', 'file-manager'),
+
+    'Enabled Commands' => __('Enabled Commands', 'file-manager'),
+
     'Failed to update permission' => __('Failed to update permission', 'file-manager'),
+
+    'User permission removed' => __('User permission removed', 'file-manager'),
+
+    'Failed to remove permission' => __('Failed to remove permission', 'file-manager'),
 
     'Disable this permission inside WordPress dashboard' => __('Disable this permission inside WordPress dashboard', 'file-manager'),
 
@@ -23,11 +35,11 @@ $i18n_strings = array(
 
     'Permissions by Roles' => __('Permissions by Roles', 'file-manager'),
 
-    'Path' => __('Path', 'file-manager'),
-
-    'Enabled Commands' => __('Enabled Commands', 'file-manager'),
-
     'Permissions by User' => __('Permissions by User', 'file-manager'),
+
+    'Add permission for a user' => __('Add permission for a user', 'file-manager'),
+
+    'Delete the User Permission' => __('Delete the User Permission', 'file-manager'),
 
     'Guest User Settings' => __('Guest User Settings', 'file-manager'),
 

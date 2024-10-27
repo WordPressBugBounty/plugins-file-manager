@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfd2299ed492bf611687aa9d6a7e7e5c4
+class ComposerStaticInit412b4c3f91fa33d0e78c5efd291dff0f
 {
     public static $prefixLengthsPsr4 = array (
         'B' => 
@@ -63,13 +63,18 @@ class ComposerStaticInitfd2299ed492bf611687aa9d6a7e7e5c4
         'BitApps\\FM\\Http\\Controllers\\TelemetryPopupController' => __DIR__ . '/../..' . '/backend/app/Http/Controllers/TelemetryPopupController.php',
         'BitApps\\FM\\Http\\Middleware\\CapCheckerMiddleware' => __DIR__ . '/../..' . '/backend/app/Http/Middleware/CapCheckerMiddleware.php',
         'BitApps\\FM\\Http\\Middleware\\NonceCheckerMiddleware' => __DIR__ . '/../..' . '/backend/app/Http/Middleware/NonceCheckerMiddleware.php',
+        'BitApps\\FM\\Http\\Requests\\Log\\DeleteLogRequest' => __DIR__ . '/../..' . '/backend/app/Http/Requests/Log/DeleteLogRequest.php',
+        'BitApps\\FM\\Http\\Requests\\Permissions\\AddUserPermissionRequest' => __DIR__ . '/../..' . '/backend/app/Http/Requests/Permissions/AddUserPermissionRequest.php',
+        'BitApps\\FM\\Http\\Requests\\Permissions\\DeleteUserPermissionRequest' => __DIR__ . '/../..' . '/backend/app/Http/Requests/Permissions/DeleteUserPermissionRequest.php',
         'BitApps\\FM\\Http\\Requests\\Permissions\\PermissionsGetRequest' => __DIR__ . '/../..' . '/backend/app/Http/Requests/Permissions/PermissionsGetRequest.php',
         'BitApps\\FM\\Http\\Requests\\Permissions\\PermissionsUpdateRequest' => __DIR__ . '/../..' . '/backend/app/Http/Requests/Permissions/PermissionsUpdateRequest.php',
+        'BitApps\\FM\\Http\\Requests\\Permissions\\SearchUserRequest' => __DIR__ . '/../..' . '/backend/app/Http/Requests/Permissions/SearchUserRequest.php',
         'BitApps\\FM\\Http\\Requests\\Settings\\LangUpdateRequest' => __DIR__ . '/../..' . '/backend/app/Http/Requests/Settings/LangUpdateRequest.php',
         'BitApps\\FM\\Http\\Requests\\Settings\\SettingsRequest' => __DIR__ . '/../..' . '/backend/app/Http/Requests/Settings/SettingsRequest.php',
         'BitApps\\FM\\Http\\Requests\\Settings\\SettingsUpdateRequest' => __DIR__ . '/../..' . '/backend/app/Http/Requests/Settings/SettingsUpdateRequest.php',
         'BitApps\\FM\\Http\\Requests\\Settings\\ThemeUpdateRequest' => __DIR__ . '/../..' . '/backend/app/Http/Requests/Settings/ThemeUpdateRequest.php',
         'BitApps\\FM\\Http\\Requests\\Settings\\ToggleViewRequest' => __DIR__ . '/../..' . '/backend/app/Http/Requests/Settings/ToggleViewRequest.php',
+        'BitApps\\FM\\Http\\Requests\\TryPluginRequest' => __DIR__ . '/../..' . '/backend/app/Http/Requests/TryPluginRequest.php',
         'BitApps\\FM\\Http\\Rules\\ValidPathRule' => __DIR__ . '/../..' . '/backend/app/Http/Rules/ValidPathRule.php',
         'BitApps\\FM\\Http\\Rules\\ValidUIOptionRule' => __DIR__ . '/../..' . '/backend/app/Http/Rules/ValidUIOptionRule.php',
         'BitApps\\FM\\Http\\Rules\\ValidateCommandsRule' => __DIR__ . '/../..' . '/backend/app/Http/Rules/ValidateCommandsRule.php',
@@ -79,6 +84,7 @@ class ComposerStaticInitfd2299ed492bf611687aa9d6a7e7e5c4
         'BitApps\\FM\\Http\\Rules\\ValidateUsersRule' => __DIR__ . '/../..' . '/backend/app/Http/Rules/ValidateUsersRule.php',
         'BitApps\\FM\\Http\\Services\\LogService' => __DIR__ . '/../..' . '/backend/app/Http/Services/LogService.php',
         'BitApps\\FM\\Model\\Log' => __DIR__ . '/../..' . '/backend/app/Model/Log.php',
+        'BitApps\\FM\\Model\\User' => __DIR__ . '/../..' . '/backend/app/Model/User.php',
         'BitApps\\FM\\Plugin' => __DIR__ . '/../..' . '/backend/app/Plugin.php',
         'BitApps\\FM\\Providers\\AccessControlProvider' => __DIR__ . '/../..' . '/backend/app/Providers/AccessControlProvider.php',
         'BitApps\\FM\\Providers\\FileEditValidator' => __DIR__ . '/../..' . '/backend/app/Providers/FileEditValidator.php',
@@ -175,9 +181,9 @@ class ComposerStaticInitfd2299ed492bf611687aa9d6a7e7e5c4
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfd2299ed492bf611687aa9d6a7e7e5c4::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfd2299ed492bf611687aa9d6a7e7e5c4::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitfd2299ed492bf611687aa9d6a7e7e5c4::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit412b4c3f91fa33d0e78c5efd291dff0f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit412b4c3f91fa33d0e78c5efd291dff0f::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit412b4c3f91fa33d0e78c5efd291dff0f::$classMap;
 
         }, null, ClassLoader::class);
     }
