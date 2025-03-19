@@ -1,6 +1,6 @@
 <?php
 
-namespace BitApps\WPKit\Http\Request\Validator;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Http\Request\Validator;
 
 interface RuleInterface
 {

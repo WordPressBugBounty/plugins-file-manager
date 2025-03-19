@@ -1,10 +1,10 @@
 <?php
 
-namespace BitApps\WPKit\Http\Router;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Http\Router;
 
-use BitApps\WPKit\Http\Request\Request;
-use BitApps\WPKit\Http\RequestType;
-use BitApps\WPKit\Http\Response;
+use BitApps\FM\Vendor\BitApps\WPKit\Http\Request\Request;
+use BitApps\FM\Vendor\BitApps\WPKit\Http\RequestType;
+use BitApps\FM\Vendor\BitApps\WPKit\Http\Response;
 
 use ReflectionMethod;
 use ReflectionNamedType;

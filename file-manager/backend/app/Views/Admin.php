@@ -8,9 +8,9 @@ use function BitApps\FM\Functions\view;
 
 use BitApps\FM\Plugin;
 
-use BitApps\WPKit\Hooks\Hooks;
+use BitApps\FM\Vendor\BitApps\WPKit\Hooks\Hooks;
 
-use BitApps\WPKit\Utils\Capabilities;
+use BitApps\FM\Vendor\BitApps\WPKit\Utils\Capabilities;
 
 /**
  * The admin Layout and page handler class.
@@ -24,6 +24,7 @@ class Admin
         Hooks::addAction('in_admin_header', [$this, 'removeAdminNotices']);
         Hooks::addAction('admin_menu', [$this, 'sideBarMenuItem']);
         Hooks::addAction('admin_notices', [$this, 'adminNotice']);
+        Hooks::removeAction('admin_notices', [Plugin::instance()->telemetryReport(), 'adminNotice']);
         Hooks::addFilter(Config::withPrefix('localized_script'), [$this, 'filterConfigVariable']);
         Hooks::addFilter('script_loader_tag', [$this, 'filterScriptTag'], 0, 3);
 
@@ -75,7 +76,7 @@ class Admin
     public function removeAdminNotices()
     {
         // phpcs:disable
-        global $plugin_page, $wp_filter;
+        global $plugin_page;
         if (empty($plugin_page) || strpos($plugin_page, Config::SLUG) === false) {
             return;
         }

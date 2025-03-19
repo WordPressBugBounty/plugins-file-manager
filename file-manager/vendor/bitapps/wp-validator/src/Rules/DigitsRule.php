@@ -1,7 +1,7 @@
 <?php
-namespace BitApps\WPValidator\Rules;
+namespace BitApps\FM\Vendor\BitApps\WPValidator\Rules;
 
-use BitApps\WPValidator\Rule;
+use BitApps\FM\Vendor\BitApps\WPValidator\Rule;
 
 class DigitsRule extends Rule
 {
@@ -9,7 +9,7 @@ class DigitsRule extends Rule
 
     private $requireParameters = ['digits'];
 
-    public function validate($value)
+    public function validate($value): bool
     {
         $this->checkRequiredParameter($this->requireParameters);
 

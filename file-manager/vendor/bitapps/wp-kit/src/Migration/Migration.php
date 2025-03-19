@@ -3,7 +3,7 @@
  * Class For Database.
  */
 
-namespace BitApps\WPKit\Migration;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Migration;
 
 /**
  * Helps to migrate tables on plugin activate.

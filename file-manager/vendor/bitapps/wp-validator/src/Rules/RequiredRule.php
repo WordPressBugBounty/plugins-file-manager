@@ -1,8 +1,8 @@
 <?php
-namespace BitApps\WPValidator\Rules;
+namespace BitApps\FM\Vendor\BitApps\WPValidator\Rules;
 
-use BitApps\WPValidator\Helpers;
-use BitApps\WPValidator\Rule;
+use BitApps\FM\Vendor\BitApps\WPValidator\Helpers;
+use BitApps\FM\Vendor\BitApps\WPValidator\Rule;
 
 class RequiredRule extends Rule
 {
@@ -10,7 +10,7 @@ class RequiredRule extends Rule
 
     private $message = 'The :attribute field is required';
 
-    public function validate($value)
+    public function validate($value): bool
     {
         return !$this->isEmpty($value);
     }

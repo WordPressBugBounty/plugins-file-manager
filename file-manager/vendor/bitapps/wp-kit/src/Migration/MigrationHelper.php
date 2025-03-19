@@ -4,7 +4,7 @@
  * Class For Database Migration.
  */
 
-namespace BitApps\WPKit\Migration;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Migration;
 
 if (!\defined('ABSPATH')) {
     exit;

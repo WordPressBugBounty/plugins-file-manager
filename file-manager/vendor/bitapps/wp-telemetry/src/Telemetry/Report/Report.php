@@ -1,9 +1,9 @@
 <?php
 
-namespace BitApps\WPTelemetry\Telemetry\Report;
+namespace BitApps\FM\Vendor\BitApps\WPTelemetry\Telemetry\Report;
 
-use BitApps\WPTelemetry\Telemetry\Telemetry;
-use BitApps\WPTelemetry\Telemetry\TelemetryConfig;
+use BitApps\FM\Vendor\BitApps\WPTelemetry\Telemetry\Telemetry;
+use BitApps\FM\Vendor\BitApps\WPTelemetry\Telemetry\TelemetryConfig;
 
 class Report
 {

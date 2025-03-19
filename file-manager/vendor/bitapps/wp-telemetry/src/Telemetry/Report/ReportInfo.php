@@ -1,6 +1,6 @@
 <?php
 
-namespace BitApps\WPTelemetry\Telemetry\Report;
+namespace BitApps\FM\Vendor\BitApps\WPTelemetry\Telemetry\Report;
 
 class ReportInfo
 {

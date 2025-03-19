@@ -1,6 +1,6 @@
 <?php
 
-namespace BitApps\WPKit\Shortcode;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Shortcode;
 
 use RuntimeException;
 

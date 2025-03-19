@@ -1,6 +1,6 @@
 <?php
 
-namespace BitApps\WPKit\Http\Router;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Http\Router;
 
 use WP_REST_Controller;
 use WP_REST_Server;

@@ -1,6 +1,6 @@
 <?php
 
-namespace BitApps\WPKit\Hooks;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Hooks;
 
 use RuntimeException;
 

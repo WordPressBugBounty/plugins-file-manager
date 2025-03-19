@@ -1,7 +1,7 @@
 <?php
-namespace BitApps\WPValidator\Rules;
+namespace BitApps\FM\Vendor\BitApps\WPValidator\Rules;
 
-use BitApps\WPValidator\Rule;
+use BitApps\FM\Vendor\BitApps\WPValidator\Rule;
 
 class SizeRule extends Rule
 {
@@ -9,7 +9,7 @@ class SizeRule extends Rule
 
     protected $requireParameters = ['size'];
 
-    public function validate($value)
+    public function validate($value): bool
     {
         $this->checkRequiredParameter($this->requireParameters);
 
@@ -17,13 +17,15 @@ class SizeRule extends Rule
 
         if (is_string($value)) {
             return strlen($value) == $size;
-        } elseif (is_int($value)) {
-            return $value === $size;
-        } else if (is_array($value)) {
-            return count($value) === $size;
-        } else {
-            return false;
         }
+        if (is_int($value)) {
+            return $value === $size;
+        }
+
+        if (is_array($value)) {
+            return count($value) === $size;
+        }
+        return false;
     }
 
     public function getParamKeys()

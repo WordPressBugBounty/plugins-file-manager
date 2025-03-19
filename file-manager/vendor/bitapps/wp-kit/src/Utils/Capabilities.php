@@ -1,8 +1,8 @@
 <?php
 
-namespace BitApps\WPKit\Utils;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Utils;
 
-use BitApps\WPKit\Hooks\Hooks;
+use BitApps\FM\Vendor\BitApps\WPKit\Hooks\Hooks;
 
 final class Capabilities
 {

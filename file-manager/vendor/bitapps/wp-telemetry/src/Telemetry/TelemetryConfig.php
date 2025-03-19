@@ -1,6 +1,6 @@
 <?php
 
-namespace BitApps\WPTelemetry\Telemetry;
+namespace BitApps\FM\Vendor\BitApps\WPTelemetry\Telemetry;
 
 class TelemetryConfig
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace BitApps\WPKit;
+namespace BitApps\FM\Vendor\BitApps\WPKit;
 
 if (!\defined('ABSPATH')) {
     exit;
 }
 
-use BitApps\WPKit\Hooks\Hooks;
-use BitApps\WPKit\Migration\MigrationHelper;
+use BitApps\FM\Vendor\BitApps\WPKit\Hooks\Hooks;
+use BitApps\FM\Vendor\BitApps\WPKit\Migration\MigrationHelper;
 
 /**
  * Class handling plugin activation, deactivation, uninstall.

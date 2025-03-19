@@ -1,6 +1,6 @@
 <?php
 
-namespace BitApps\WPKit\Http\Client;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Http\Client;
 
 use ArgumentCountError;
 use BadMethodCallException;

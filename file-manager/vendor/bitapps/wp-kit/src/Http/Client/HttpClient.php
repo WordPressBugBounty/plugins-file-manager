@@ -1,9 +1,9 @@
 <?php
 
-namespace BitApps\WPKit\Http\Client;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Http\Client;
 
 use BadMethodCallException;
-use BitApps\WPKit\Helpers\JSON;
+use BitApps\FM\Vendor\BitApps\WPKit\Helpers\JSON;
 
 use InvalidArgumentException;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace BitApps\WPDatabase;
+namespace BitApps\FM\Vendor\BitApps\WPDatabase;
 
 use Closure;
 

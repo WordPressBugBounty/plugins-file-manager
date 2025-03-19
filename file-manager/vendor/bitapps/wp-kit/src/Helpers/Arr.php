@@ -1,6 +1,6 @@
 <?php
 
-namespace BitApps\WPKit\Helpers;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Helpers;
 
 /*
  * This helper class is used to help with array manipulation.

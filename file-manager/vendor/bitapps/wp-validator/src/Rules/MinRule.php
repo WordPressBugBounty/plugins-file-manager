@@ -1,8 +1,8 @@
 <?php
-namespace BitApps\WPValidator\Rules;
+namespace BitApps\FM\Vendor\BitApps\WPValidator\Rules;
 
-use BitApps\WPValidator\Helpers;
-use BitApps\WPValidator\Rule;
+use BitApps\FM\Vendor\BitApps\WPValidator\Helpers;
+use BitApps\FM\Vendor\BitApps\WPValidator\Rule;
 
 class MinRule extends Rule
 {

@@ -4,7 +4,7 @@
  * Class For Database Relations.
  */
 
-namespace BitApps\WPDatabase;
+namespace BitApps\FM\Vendor\BitApps\WPDatabase;
 
 if (!\defined('ABSPATH')) {
     exit;

@@ -1,14 +1,14 @@
 <?php
 
-namespace BitApps\WPKit\Http\Request;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Http\Request;
 
 use ArrayAccess;
-use BitApps\WPKit\Configs\JsonConfig;
-use BitApps\WPKit\Helpers\Arr;
-use BitApps\WPKit\Helpers\JSON;
-use BitApps\WPKit\Http\IpTool;
-use BitApps\WPKit\Http\Router\RouteRegister;
-use BitApps\WPValidator\Validator;
+use BitApps\FM\Vendor\BitApps\WPKit\Configs\JsonConfig;
+use BitApps\FM\Vendor\BitApps\WPKit\Helpers\Arr;
+use BitApps\FM\Vendor\BitApps\WPKit\Helpers\JSON;
+use BitApps\FM\Vendor\BitApps\WPKit\Http\IpTool;
+use BitApps\FM\Vendor\BitApps\WPKit\Http\Router\RouteRegister;
+use BitApps\FM\Vendor\BitApps\WPValidator\Validator;
 use JsonSerializable;
 use ReturnTypeWillChange;
 use RuntimeException;

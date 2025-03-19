@@ -1,6 +1,6 @@
 <?php
 
-namespace BitApps\WPKit\Configs;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Configs;
 
 final class JsonConfig
 {

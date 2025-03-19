@@ -4,7 +4,7 @@ namespace BitApps\FM\Providers;
 
 use BitApps\FM\Exception\PreCommandException;
 use BitApps\FM\Plugin;
-use BitApps\WPKit\Utils\Capabilities;
+use BitApps\FM\Vendor\BitApps\WPKit\Utils\Capabilities;
 
 \defined('ABSPATH') or exit();
 class FileEditValidator
@@ -13,6 +13,7 @@ class FileEditValidator
     {
         try {
             $this->checkPermission();
+            Plugin::instance()->accessControl()->scanFile($cmd, $args);
         } catch (PreCommandException $th) {
             return $th->getError();
         }

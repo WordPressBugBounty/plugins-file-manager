@@ -1,6 +1,6 @@
 <?php
 
-namespace BitApps\WPValidator\Exception;
+namespace BitApps\FM\Vendor\BitApps\WPValidator\Exception;
 
 use Exception;
 

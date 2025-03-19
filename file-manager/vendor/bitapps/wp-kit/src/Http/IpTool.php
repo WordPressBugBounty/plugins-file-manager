@@ -4,7 +4,7 @@
  * Provides IP related functionality.
  */
 
-namespace BitApps\WPKit\Http;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Http;
 
 trait IpTool
 {

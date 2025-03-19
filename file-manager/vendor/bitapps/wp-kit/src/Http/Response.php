@@ -1,6 +1,6 @@
 <?php
 
-namespace BitApps\WPKit\Http;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Http;
 
 final class Response
 {

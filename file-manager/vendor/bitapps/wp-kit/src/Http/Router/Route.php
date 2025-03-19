@@ -1,6 +1,6 @@
 <?php
 
-namespace BitApps\WPKit\Http\Router;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Http\Router;
 
 /**
  * A forwarder class for RouteBase.

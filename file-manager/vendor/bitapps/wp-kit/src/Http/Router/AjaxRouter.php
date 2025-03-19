@@ -1,8 +1,8 @@
 <?php
 
-namespace BitApps\WPKit\Http\Router;
+namespace BitApps\FM\Vendor\BitApps\WPKit\Http\Router;
 
-use BitApps\WPKit\Hooks\Hooks;
+use BitApps\FM\Vendor\BitApps\WPKit\Hooks\Hooks;
 
 /**
  * Base Router.
