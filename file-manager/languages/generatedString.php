@@ -11,6 +11,24 @@ $i18n_strings = array(
 
     'Failed to update language' => __('Failed to update language', 'file-manager'),
 
+    'Share Your Product Experience' => __('Share Your Product Experience', 'file-manager'),
+
+    'Review us' => __('Review us', 'file-manager'),
+
+    'New Product Released' => __('New Product Released', 'file-manager'),
+
+    'Theme' => __('Theme', 'file-manager'),
+
+    'Id' => __('Id', 'file-manager'),
+
+    'User' => __('User', 'file-manager'),
+
+    'Command' => __('Command', 'file-manager'),
+
+    'Details' => __('Details', 'file-manager'),
+
+    'Created' => __('Created', 'file-manager'),
+
     'User permission deleted' => __('User permission deleted', 'file-manager'),
 
     'Failed to save permission' => __('Failed to save permission', 'file-manager'),
@@ -25,13 +43,33 @@ $i18n_strings = array(
 
     'Failed to remove permission' => __('Failed to remove permission', 'file-manager'),
 
+    'File Manager Shortcode' => __('File Manager Shortcode', 'file-manager'),
+
+    'Update' => __('Update', 'file-manager'),
+
     'Disable this permission inside WordPress dashboard' => __('Disable this permission inside WordPress dashboard', 'file-manager'),
 
-    'If disabled, the root folder for the file manager will be determined by this permission setting.' => __('If disabled, the root folder for the file manager will be determined by this permission setting.', 'file-manager'),
+    'When this option is enabled, the File Manager within the WordPress dashboard will operate independently of the permission settings configured for users and user roles.' => __('When this option is enabled, the File Manager within the WordPress dashboard will operate independently of the permission settings configured for users and user roles.', 'file-manager'),
+
+    'Allowed MIME types' => __('Allowed MIME types', 'file-manager'),
+
+    'Enable only the MIME types you need. Allowing unnecessary types may pose security risks.' => __('Enable only the MIME types you need. Allowing unnecessary types may pose security risks.', 'file-manager'),
+
+    'Maximum File Size' => __('Maximum File Size', 'file-manager'),
 
     'Public folder options' => __('Public folder options', 'file-manager'),
 
+    'Root Folder Path' => __('Root Folder Path', 'file-manager'),
+
+    'Root Folder URL' => __('Root Folder URL', 'file-manager'),
+
     'Folder Options' => __('Folder Options', 'file-manager'),
+
+    'Enable a common folder for everyone' => __('Enable a common folder for everyone', 'file-manager'),
+
+    'Enable separate folders for each user' => __('Enable separate folders for each user', 'file-manager'),
+
+    'Enable folders for each user role' => __('Enable folders for each user role', 'file-manager'),
 
     'Permissions by Roles' => __('Permissions by Roles', 'file-manager'),
 
@@ -44,6 +82,10 @@ $i18n_strings = array(
     'Guest User Settings' => __('Guest User Settings', 'file-manager'),
 
     'can download?' => __('can download?', 'file-manager'),
+
+    'Upload' => __('Upload', 'file-manager'),
+
+    'Create Folder' => __('Create Folder', 'file-manager'),
 
     'URL and Path' => __('URL and Path', 'file-manager'),
 
@@ -89,6 +131,12 @@ $i18n_strings = array(
 
     'Default View Type' => __('Default View Type', 'file-manager'),
 
-    'If this is enabled then, Link and path will be shown in file, folder info.' => __('If this is enabled then, Link and path will be shown in file, folder info.', 'file-manager')
+    'If this is enabled then, Link and path will be shown in file, folder info.' => __('If this is enabled then, Link and path will be shown in file, folder info.', 'file-manager'),
+
+    'In Bit Apps, we provide all kind product support for any types of customer, it dose not matter FREE or PRO user.' => __('In Bit Apps, we provide all kind product support for any types of customer, it dose not matter FREE or PRO user.', 'file-manager'),
+
+    'We actively provide support through Email and Live Chat.' => __('We actively provide support through Email and Live Chat.', 'file-manager'),
+
+    'Chat here' => __('Chat here', 'file-manager')
 );
 /* THIS IS THE END OF THE GENERATED FILE */
