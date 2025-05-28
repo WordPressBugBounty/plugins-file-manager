@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-05-20T11:25:41+00:00\n"
+"POT-Creation-Date: 2025-05-28T09:27:24+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: file-manager\n"
@@ -27,7 +27,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: app/Http/Controllers/FileManagerController.php:85
+#: app/Http/Controllers/FileManagerController.php:91
 msgid "There is no readable volume. Please select an readable folder from settings"
 msgstr ""
 
@@ -83,16 +83,20 @@ msgid "UI option must be valid"
 msgstr ""
 
 #. translators: 1: elFInder Command
-#: app/Providers/AccessControlProvider.php:86
+#: app/Providers/AccessControlProvider.php:95
 msgid "You are not authorized to run this command [ %s ] on file manager"
 msgstr ""
 
-#: app/Providers/AccessControlProvider.php:184
-msgid "Failed to process the file"
+#: app/Providers/AccessControlProvider.php:202
+msgid "This file %s type is not allowed"
 msgstr ""
 
-#: app/Providers/AccessControlProvider.php:215
-msgid "The file contains JS code. Please remove the code and try again. Or allow js mimetype"
+#: app/Providers/AccessControlProvider.php:214
+msgid "Failed to process this file %s"
+msgstr ""
+
+#: app/Providers/AccessControlProvider.php:246
+msgid "This file %s contains JS code. Please remove the code and try again. Or allow js mimetype"
 msgstr ""
 
 #. translators: 1: Temporary file path

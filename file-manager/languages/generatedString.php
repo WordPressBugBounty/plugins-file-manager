@@ -83,6 +83,8 @@ $i18n_strings = array(
 
     'can download?' => __('can download?', 'file-manager'),
 
+    'Something went wrong while uploading files.' => __('Something went wrong while uploading files.', 'file-manager'),
+
     'Upload' => __('Upload', 'file-manager'),
 
     'Create Folder' => __('Create Folder', 'file-manager'),
