@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-05-28T09:27:24+00:00\n"
+"POT-Creation-Date: 2025-05-28T10:26:23+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: file-manager\n"
@@ -87,15 +87,15 @@ msgstr ""
 msgid "You are not authorized to run this command [ %s ] on file manager"
 msgstr ""
 
-#: app/Providers/AccessControlProvider.php:202
+#: app/Providers/AccessControlProvider.php:201
 msgid "This file %s type is not allowed"
 msgstr ""
 
-#: app/Providers/AccessControlProvider.php:214
+#: app/Providers/AccessControlProvider.php:213
 msgid "Failed to process this file %s"
 msgstr ""
 
-#: app/Providers/AccessControlProvider.php:246
+#: app/Providers/AccessControlProvider.php:245
 msgid "This file %s contains JS code. Please remove the code and try again. Or allow js mimetype"
 msgstr ""
 
