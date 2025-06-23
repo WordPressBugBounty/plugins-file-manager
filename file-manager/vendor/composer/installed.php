@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'bitapps/file-manager',
-        'pretty_version' => '6.8.2.x-dev',
-        'version' => '6.8.2.9999999-dev',
-        'reference' => '3bdba3797fe27f357c42ccb0baa3c3d6d1388bac',
+        'pretty_version' => '6.8.3.x-dev',
+        'version' => '6.8.3.9999999-dev',
+        'reference' => '875635fd5c145df5e77508510adcd0d89d0d25c9',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'bitapps/file-manager' => array(
-            'pretty_version' => '6.8.2.x-dev',
-            'version' => '6.8.2.9999999-dev',
-            'reference' => '3bdba3797fe27f357c42ccb0baa3c3d6d1388bac',
+            'pretty_version' => '6.8.3.x-dev',
+            'version' => '6.8.3.9999999-dev',
+            'reference' => '875635fd5c145df5e77508510adcd0d89d0d25c9',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
