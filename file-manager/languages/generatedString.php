@@ -15,8 +15,6 @@ $i18n_strings = array(
 
     'Review us' => __('Review us', 'file-manager'),
 
-    'New Product Released' => __('New Product Released', 'file-manager'),
-
     'Theme' => __('Theme', 'file-manager'),
 
     'Id' => __('Id', 'file-manager'),
@@ -114,6 +112,10 @@ $i18n_strings = array(
     'Width can be integer or auto' => __('Width can be integer or auto', 'file-manager'),
 
     'Height can be integer or auto' => __('Height can be integer or auto', 'file-manager'),
+
+    'Sync with media library' => __('Sync with media library', 'file-manager'),
+
+    'If this is enabled and target upload path is within Wordpress upload directory then, files uploaded using file manager will be visible in WordPress media library' => __('If this is enabled and target upload path is within Wordpress upload directory then, files uploaded using file manager will be visible in WordPress media library', 'file-manager'),
 
     'Show Hidden Files' => __('Show Hidden Files', 'file-manager'),
 
